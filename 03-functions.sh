@@ -14,3 +14,6 @@ SAMPLE() {
 # function_name
 
 SAMPLE
+
+source common.sh
+demo
