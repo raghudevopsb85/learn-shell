@@ -57,6 +57,8 @@ ADD=$((2+4))
 echo Added Value - $ADD
 
 
+# Variable Name Characters
+# a-z, A-Z, 0-9, _
 
 
 
