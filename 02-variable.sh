@@ -9,5 +9,14 @@ echo Value of x - $x
 echo Value of x - ${x}
 
 
+# Input from User
+#       BEFORE SCRIPT
+#   LHS    script    RHS
 
+# BEFORE SCRIPT - Environment Variables
+# LHS
+# RHS           - Special Variables
+
+
+echo Env Variable - a_env - ${a_env}
 
