@@ -19,13 +19,35 @@ echo Value of x - ${x}
 
 # On cli , I send the variable using the following command.
 # export a_env=10000
+# bash 02-variable.sh
 echo Env Variable - a_env - ${a_env}
 
 
 # LHS
-# On cl
+# On cli, I send the variable using the following command.
+# a_lhs=1000 bash 02-variable.sh
 echo LHS variable a_lhs - ${a_lhs}
 
 
 # RHS           - Special Variables
+
+## Special Variables
+# $1 - First Value OF RHS
+# $2 - Second Value of RHS
+# $# - Count Number of Values
+# $* - All Values
+
+# On cli, We will access the variable using the following command.
+# bash 02-variable.sh 1000 abc
+echo First Value - $1
+echo Second Value - $2
+echo All Values - $*
+echo Number of Values is - $#
+
+
+
+
+
+
+
 
