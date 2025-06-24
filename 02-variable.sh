@@ -44,6 +44,17 @@ echo Second Value - $2
 echo All Values - $*
 echo Number of Values is - $#
 
+# Variable Substitution
+# Syntax: var=$(command)
+DATE=$(date)
+
+echo Date - $DATE
+
+# Arithmetic Substitution
+# Syntax: var=$((expr))
+ADD=$((2+4))
+
+echo Added Value - $ADD
 
 
 
