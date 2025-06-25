@@ -40,3 +40,12 @@ a=10
 if [ $a -lt 100 ]; then
   echo $a is less than 100
 fi
+
+# 2. String Comparisons
+# Operations : = , != , -z
+# [ abc = abc ]
+# [ -z $x ] -> This is true if x is not having any value which means it is not declared
+
+if [ -z $x ]; then
+  echo x is empty
+fi
