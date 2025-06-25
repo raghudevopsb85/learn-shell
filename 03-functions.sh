@@ -28,7 +28,9 @@ demo
 
 abc1() {
   echo value of a - $a
+  echo value of b - $b
 }
 
 a=10
-abc1
+b=20 abc1
+
