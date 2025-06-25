@@ -37,7 +37,7 @@
 # [ 1 -eq 1 ] -> True if both are equal
 
 a=10
-if [ $a -lt 100 ]; then
+if [ "$a" -lt 100 ]; then
   echo $a is less than 100
 fi
 
@@ -46,6 +46,13 @@ fi
 # [ abc = abc ]
 # [ -z $x ] -> This is true if x is not having any value which means it is not declared
 
-if [ -z $x ]; then
+if [ -z "$x" ]; then
   echo x is empty
 fi
+
+### NOTE: In expressions , variables keep in double quotes.
+
+# 3. File Checks
+# Operators: -e, (https://www.man7.org/linux/man-pages/man1/bash.1.html )
+
+
