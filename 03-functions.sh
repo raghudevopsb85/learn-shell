@@ -30,7 +30,7 @@ abc1() {
   echo value of a - $a
   echo value of b - $b
   echo First Argument - $1
-  echo Second Argument - $1
+  echo Second Argument - $2
   echo All Arguments - $*
   echo Arguments Count - $#
 }
